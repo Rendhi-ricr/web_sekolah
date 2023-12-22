@@ -1,4 +1,6 @@
-
+<?= $this->extend('layouts/backend/base_layouts') ?>
+<?= $this->section('title') ?>Data Agenda<?= $this->endSection() ?>
+<?= $this->section('content') ?>
 <section class="content">
             <div class="main-content">
                 <div class="block">
@@ -63,3 +65,4 @@
                 </div>
             </div>
         </section>
+<?= $this->endSection() ?>

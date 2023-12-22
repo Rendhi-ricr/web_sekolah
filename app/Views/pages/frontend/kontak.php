@@ -1,6 +1,6 @@
-
-
-
+<?= $this->extend('layouts/frontend/base_layouts') ?>
+<?= $this->section('title') ?>Berita<?= $this->endSection() ?>
+<?= $this->section('content') ?>
  <div class="container">
     <h2 class="text-center my-4">Hubungi Kami</h2>
     <!-- Form Pertanyaan -->

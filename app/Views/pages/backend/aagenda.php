@@ -1,3 +1,6 @@
+<?= $this->extend('layouts/backend/base_layouts') ?>
+<?= $this->section('title') ?>Data Agenda<?= $this->endSection() ?>
+<?= $this->section('content') ?>
 <section class="content">
             <div class="content-header">
                 <h1>Data Agenda </h1>

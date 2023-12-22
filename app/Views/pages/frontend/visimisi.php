@@ -1,5 +1,5 @@
 <?= $this->extend('layouts/frontend/base_layouts') ?>
-<?= $this->section('title') ?>Ekstrakurikuler<?= $this->endSection() ?>
+<?= $this->section('title') ?>Visi Misi<?= $this->endSection() ?>
 <?= $this->section('content') ?>
 <div class="container">
         <h2 class="vm text-center mb-4">Visi dan Misi Sekolah</h2>
@@ -21,3 +21,4 @@
             </div>
         </div>
     </div>
+<?= $this->endSection() ?>

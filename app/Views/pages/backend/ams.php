@@ -2,15 +2,6 @@
 <?= $this->section('title') ?>Data Masukan dan Saran<?= $this->endSection() ?>
 <?= $this->section('content') ?>
 <section class="content">
-            <div class="content-header">
-                <h1>Data Berita</h1>
-
-                <ol class="breadcrumb content-header-breadcrumb my-sm-auto">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Library</li>
-                </ol>
-
-            </div>
             <div class="main-content">
                 <div class="block">
                     <a href="" class="btn btn-primary btn-sm my-4"><i class="bx bx-plus"></i> Tambah Data</a>

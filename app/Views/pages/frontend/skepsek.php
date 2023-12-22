@@ -1,6 +1,6 @@
-
-
-
+<?= $this->extend('layouts/frontend/base_layouts') ?>
+<?= $this->section('title') ?>Ekstrakurikuler<?= $this->endSection() ?>
+<?= $this->section('content') ?>
 <div class="container">
         <div class="sambutan-container">
             <h2 class="text-center mb-4">Sambutan Kepala Sekolah</h2>

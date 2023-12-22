@@ -1,4 +1,7 @@
- <section class="content">
+<?= $this->extend('layouts/backend/base_layouts') ?>
+<?= $this->section('title') ?>Data Berita<?= $this->endSection() ?>
+<?= $this->section('content') ?>
+<section class="content">
             <div class="main-content">
                 <div class="block">
                     <a href="" class="btn btn-primary btn-sm my-4"><i class="bx bx-plus"></i> Tambah Data</a>

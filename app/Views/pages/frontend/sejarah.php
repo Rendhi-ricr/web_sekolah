@@ -1,5 +1,5 @@
 <?= $this->extend('layouts/frontend/base_layouts') ?>
-<?= $this->section('title') ?>Berita<?= $this->endSection() ?>
+<?= $this->section('title') ?>Sejarah<?= $this->endSection() ?>
 <?= $this->section('content') ?>
 <div class="container">
         <div class="sambutan-container">

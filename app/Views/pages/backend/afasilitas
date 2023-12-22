@@ -1,5 +1,5 @@
 <?= $this->extend('layouts/backend/base_layouts') ?>
-<?= $this->section('title') ?>Data Fasilitas<?= $this->endSection() ?>
+<?= $this->section('title') ?>Data Failitas<?= $this->endSection() ?>
 <?= $this->section('content') ?>
 <section class="content">
             <div class="content-header">

@@ -1,5 +1,5 @@
 <?= $this->extend('layouts/frontend/base_layouts') ?>
-<?= $this->section('title') ?>Berita<?= $this->endSection() ?>
+<?= $this->section('title') ?>Guru<?= $this->endSection() ?>
 <?= $this->section('content') ?>
 <div class="container mt-5">
         <h2 class="text-center mb-5">Data Guru</h2>

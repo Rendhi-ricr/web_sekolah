@@ -7,7 +7,7 @@
             <div class="col-md-4">
                 <div class="teacher-card">
                     <img src="img/guru1.jpg" alt="Teacher 1" class="teacher-image">
-                    <div class="teacher-name">windi astuti</div>
+                    <div class="teacher-name">Gan Gan Pamungkas</div>
                     <div class="teacher-subject">Matematika</div>
                 </div>
             </div>

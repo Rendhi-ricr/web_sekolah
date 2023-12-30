@@ -19,7 +19,7 @@
         <?= $this->include('layouts/backend/includes/sidebar') ?>
 
         <!-- Navbar -->
-        <?= $this->include('layouts/backend/includes/navvbar') ?>
+        <?= $this->include('layouts/backend/includes/navbar') ?>
 
         <!-- Page Content -->
         <?= $this->renderSection('content') ?>
@@ -46,7 +46,25 @@
                 $('.show').collapse('hide')
             })
 
-            $('.table').DataTable()
+            let dataTable = $('table').DataTable({
+                "responsive": true,
+                "dom": "ftpr"
+            })
+
+            const photoInp = $("#foto");
+            let file;
+
+            photoInp.change(function(e) {
+                file = this.files[0];
+                if (file) {
+                    let reader = new FileReader();
+                    reader.onload = function(event) {
+                        $("#imgPreview")
+                            .attr("src", event.target.result);
+                    };
+                    reader.readAsDataURL(file);
+                }
+            });
         });
     </script>
 
